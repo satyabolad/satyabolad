@@ -29,7 +29,7 @@ rm -rf jobid
 
 ```bash
 pwd #get the path
-receive agave /scratch/ddeeksha/filename/last_conf.dat .
+agave receive /scratch/ddeeksha/filename/last_conf.dat .
 ```
 ### To obtain mean structure and rmsf
 oat mean -p 20 -o mean.dat -d rmsf.json trajectory.dat
